@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: url("./img/fondo404.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#uno {
+    position: absolute;
+    top: 30%;
+    left: 42%;
+    height: 100px;
+    width: 300px;
+    background: none;
+    display: flex;
+}
+
+#estas {
+    background: none;
+    left: 400%;
+    top: 35%;
+}
+
+#perdido {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 150;
+    line-height: 80px;
+    color: darkcyan;
+    background: none;
+    margin: 5px;
+}
+
+#dos {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 150;
+    line-height: 80px;
+    color: rgb(255, 0, 0);
+    background: none;
+    margin: 5px;
+}
+
+#primero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80px;
+    width: 300px;
+    background: none;
+    display: flex;
+}
+#segundo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    width: 310px;
+    background: none;
+    display: flex;
+}
+
+#primero, #segundo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+}
